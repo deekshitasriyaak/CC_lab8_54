@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o PES1UG22AM054-1 main1.cpp' // Replace `YOUR_SRN` with your ID
+                    sh 'g++ -o PES1UG22AM054-1 main1.cpp' 
                 }
             }
         }
